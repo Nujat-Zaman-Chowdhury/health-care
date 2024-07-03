@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="px-[166px] py-[120px] bg-[#020043] mt-[160px]">
+    <footer className="px-[166px] py-[120px] bg-[#020043]">
       <div>
         <div>
           <img src="logo light.png" alt="" />

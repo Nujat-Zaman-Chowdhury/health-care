@@ -41,7 +41,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <button className="w-[174px] h-[48px] rounded-[12px] border border-[#343268] text-[#020043] font-medium flex justify-center items-center gap-2">Appointment <img src="Arrow 1.png" alt="" /></button>
+    <button className="w-[174px] h-[48px] rounded-[12px] border border-[#343268] text-[#020043] font-medium flex justify-center items-center gap-2">Appointment <img src="Arrow.png" alt="" /></button>
   </div>
 </div>
     );

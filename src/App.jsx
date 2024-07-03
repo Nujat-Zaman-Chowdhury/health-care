@@ -1,5 +1,6 @@
 
 import './App.css'
+import AppointmentSection from './components/AppointmentSection'
 import Footer from './components/Footer'
 import Banner from './components/Header/Banner'
 
@@ -14,6 +15,8 @@ function App() {
         <div className='max-w-7xl px-[140px]'>
         <Navbar/>
         <Banner/>
+        <AppointmentSection/>
+        
         </div>
         <Footer/>
 
