@@ -1,12 +1,12 @@
 const Footer = () => {
   return (
-    <footer className="px-[166px] py-[120px] bg-[#020043]">
+    <footer className="px-10 md:px-[166px] py-12 md:py-[120px] bg-[#020043]">
       <div>
         <div>
           <img src="logo light.png" alt="" />
         </div>
-        <div className="flex flex-col lg:flex-row text-[#FFFFF5]/70 mt-[33px] gap-[130px]">
-          <div className="w-[297px] ">
+        <div className="flex flex-col lg:flex-row text-[#FFFFF5]/70 mt-[33px] gap-10 md:gap-[130px]">
+          <div className="w-full md:w-[297px] ">
             <p>
               123 Main Street Anytown, USA Postal Code: 12345 <br />
               <br />
@@ -50,7 +50,7 @@ const Footer = () => {
             <div className="mb-10 mt-3">
              <img src="/social.png" alt=""  className="w-full "/>
             </div>
-            <small className="capitalize ">@docplus 2024</small>
+            <small className="capitalize">@docplus 2024</small>
           </div>
         </div>
       </div>
