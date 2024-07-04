@@ -2,7 +2,7 @@
 
 const Comprehensive = () => {
     return (
-        <div className="max-w-[1160px] mx-auto px-5 md:p-0 flex flex-col lg:flex-row justify-between gap-5">
+        <div className="max-w-[1160px] mx-auto px-5 md:p-0 flex flex-col lg:flex-row justify-between gap-5 bg-white">
         {/* left */}
         <div className="order-2 lg:order-1 bg-white lg:h-[312px] h-72 lg:flex-1 p-5 space-y-2 rounded-3xl md:mt-10 border relative">
           <h3 className="text-4xl font-semibold">90%</h3>
@@ -30,7 +30,7 @@ const Comprehensive = () => {
                 <img src="/contract.png" className="" alt="" />
               </div>
             </div>
-            <div className="bg-transparent md:mt-7 flex flex-col min-h-44 md:flex-1 p-5 space-y-2 rounded-3xl border relative ">
+            <div className="bg-white md:mt-7 flex flex-col min-h-44 md:flex-1 p-5 space-y-2 rounded-3xl border relative ">
               <div className="flex-1">
                 <div className="flex gap-2 items-center"><h3 className="text-4xl font-semibold">4.8</h3><img src="fi-sr-star.png" alt="" /></div>
                 <p className="text-sm">Over 20,000 Patient</p>

@@ -52,14 +52,14 @@ const Main = () => {
 
       <div className="flex flex-col lg:flex-row gap-8 md:gap-[50px] mb-[90px] md:mb-[200px]">
         <div
-          className="bg-cover bg-center relative w-full lg:w-[560px] h-[400px] lg:h-[415px] rounded-md md:rounded-[32px]"
+          className="bg-cover bg-center relative w-full lg:w-[500px] h-[400px] lg:h-[415px] rounded-md md:rounded-[32px]"
           style={{
             backgroundImage: `url('Rectangle 27-1.png')`,
             backgroundRepeat: "no-repeat",
           }}
         >
           <div
-            className="absolute md:w-[321px] md:h-[144px] left-[10px] md:left-[20px] bottom-[20px] rounded-md md:rounded-[32px]"
+            className="absolute lg:w-[321px] lg:h-[144px]  left-[10px] lg:left-[20px] bottom-[20px] rounded-md md:rounded-[32px]"
             style={{
               
               backgroundColor: "rgba(2, 0, 67, 0.7)",
@@ -77,7 +77,7 @@ const Main = () => {
                     fontSize: "20px",
                   }}
                 >
-                  Consultancy your health
+                 Meet
                 </h4>
                 <p
                   style={{
@@ -93,21 +93,21 @@ const Main = () => {
                 <img
                   src={arrow}
                   alt="Group28.png"
-                  className="absolute right-[-2px] lg:right-[-51px] bottom-[-18px]"
+                  className="absolute right-[-2px] lg:right-0 bottom-[-18px] w-[48px] h-[48px]"
                 />
               </div>
             </div>
           </div>
         </div>
         <div
-          className="bg-cover bg-center relative w-full lg:w-[560px] h-[400px] lg:h-[415px] rounded-md  md:rounded-[32px]"
+          className="bg-cover bg-center relative w-full lg:w-[500px] h-[400px] lg:h-[415px] rounded-md  md:rounded-[32px]"
           style={{
             backgroundImage: `url('Rectangle27.png')`,
             backgroundRepeat: "no-repeat",
           }}
         >
           <div
-            className="absolute absolute md:w-[321px] md:h-[144px] left-[10px] md:left-[20px] bottom-[20px] rounded-md md:rounded-[32px]"
+            className="absolute lg:w-[321px] lg:h-[144px]   left-[10px] md:left-[20px] bottom-[20px] rounded-md md:rounded-[32px]"
             style={{
               
               backgroundColor: "rgba(2, 0, 67, 0.7)",
@@ -141,7 +141,7 @@ const Main = () => {
                 <img
                   src="Group28.png"
                   alt=""
-                  className="absolute right-[-2px] lg:right-[-51px] bottom-[-18px]"
+                  className="absolute right-[-2px] lg:right-0 bottom-[-18px] w-[48px] h-[48px]"
                 />
               </div>
             </div>
